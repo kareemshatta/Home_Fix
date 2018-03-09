@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Home__fix</string>
+    <string-array name="country_arrays">
+
+        <item>Select Country</item>
+        <item>cairo</item>
+        <item>alex</item>
+        <item>elborg</item>
+        <item>ismailia</item>
+        <item>domyta</item>
+    </string-array>
+</resources>

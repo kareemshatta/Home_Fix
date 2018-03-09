@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c6c088"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#23ffffff"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23ffffff"
+            android:layout_marginTop="16dp"
+            android:hint="user_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#23ffffff"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#23ffffff"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#23ffffff"
+            android:hint="Phone Number"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="16sp" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_back"
+            android:gravity="start"
+            android:padding="10dp"
+            android:drawableStart="@drawable/birth_day"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Selecte Birthday"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="16sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="16dp">
+
+        <Spinner
+            android:id="@+id/sp_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_back"
+            android:entries="@array/country_arrays"
+            android:padding="10dp" />
+    <Spinner
+        android:id="@+id/sp_area"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_back"
+        android:entries="@array/country_arrays"
+        android:padding="10dp" />
+</LinearLayout>
+
+
+        <Spinner
+            android:id="@+id/profission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_back"
+            android:entries="@array/country_arrays"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_marginTop="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:background="@drawable/btn_back"
+            android:layout_margin="16dp"
+            android:text="register"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
